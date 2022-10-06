@@ -1,0 +1,159 @@
+#title{
+  background-color: #ff4c68;
+  font-family: Montserrat;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 5% 15%;
+  line-height: 1.5;
+}
+
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5erm;
+}
+h2{
+  font-family: 'Montserrat';
+  color: #fff;
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: bold;
+}
+h3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #fff;
+}
+ /* nevigation bar*/
+.navbar-brand
+ {
+   font-family: "Ubuntu";
+   font-size: 2.5rem;
+   font-weight: bold;
+ }
+ .navbar{
+   padding-bottom: 4.5%;
+ }
+ .nav-item{
+   padding: 0 10%;
+ }
+ .nav-link{
+   font-size: 1.5rem;
+   font-weight: bold;
+ }
+/* buttom*/
+.download-buttom{
+  margin: 2px 3px 4px 5px;
+}
+/*title-image\*/
+.title-img{
+  width:60%;
+  transform: rotate(25deg); /*  used to rotate the image*/
+
+
+}
+
+#features{
+  padding: 7% 15%;
+  text-align: center
+
+}
+
+.bottom-features{
+ padding-left: 2%;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: red;
+}
+
+/* testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+}
+.testimonial-img{
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* press */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom:  2%;
+}
+.press-logo {
+  width: 10%;
+  margin: 10px 10px 20px;
+}
+
+
+/* Pricing*/
+.btn{
+  background-color: light-blue;
+}
+.btn:hover{
+color: #fff;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+
+@media (max-width:988px) {    /*this is the point  where the screen size changes from laptopt tab and then to phone */
+  .title-img{
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+  /* CTA section*/
+
+#cta{
+  background-color:#ff4c68;
+  padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+  font-family: Montserrat-Black;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* FOOTER SECTION*/
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+
+  width: 5%;
+  margin: 3% 1%;
+
+}
